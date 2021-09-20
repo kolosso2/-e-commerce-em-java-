@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "PaymentCreatedEvent",
+  "namespace": "com.Hatanaka.ecommerce.Payment.event",
+  "fields": [
+    {
+      "name": "checkoutCode",
+      "type": ["string"]
+    }
+  ]
+}
+{
+  "name": "checkoutStatus",
+  "type": ["string"]
+}
+{
+  "name": "paymentCode",
+  "type": ["string"]
+}
